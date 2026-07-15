@@ -5992,3 +5992,29 @@ header .bottom-header .navbar-brand {
    1280–1366px laptop screen — no extra rules needed beyond what's
    already declared, since everything here is width-based rather
    than device-type based. ---- */
+
+.blog-1{
+    margin: 70px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.blog-1 h1.title {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #003966;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+}
+
+.blog-1 p.desc {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #555;
+    font-weight: 400;
+}
