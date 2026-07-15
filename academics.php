@@ -1,0 +1,755 @@
+<?php include 'function.php'?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Academics - Wisdom Park International Schoool (CBSE)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link id="favicon" rel="shortcut icon" type="image/png" href="images/fav-icon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header-reponsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+	<?=template_header()?>
+	<main>
+		<section class="academics-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/academics-1.webp" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-6">
+						<h6 class="sub-title">Academic Overview</h6>
+						<h1 class="section-title">Excellence in Academic Learning</h1>
+						<p class="section-desc">Wisdom Park International School offers a well-balanced academic system
+							that emphasizes conceptual clarity, practical application, and holistic student development.
+							Following the CBSE curriculum, the school provides a strong academic foundation supported by
+							modern teaching methodologies and student-focused learning practices.</p>
+						<div class="icon-list">
+							<div class="list">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-cirle">
+											<i class="bi bi-journal-check"></i>
+										</div>
+									</div>
+									<div class="col-md-10">
+										<h4 class="list-heading">CBSE Aligned Curriculum</h4>
+										<p class="list-desc">Structured and student-focused learning programs designed
+											according to CBSE guidelines to support academic excellence and overall
+											development.</p>
+									</div>
+								</div>
+							</div>
+							<div class="list">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-cirle">
+											<i class="bi bi-lightbulb"></i>
+										</div>
+									</div>
+									<div class="col-md-10">
+										<h4 class="list-heading">Concept-Based Learning</h4>
+										<p class="list-desc">Focused learning approach that strengthens conceptual
+											understanding and practical application skills through interactive and
+											engaging classroom experiences.</p>
+									</div>
+								</div>
+							</div>
+							<div class="list">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-cirle">
+											<i class="bi bi-graph-up-arrow"></i>
+										</div>
+									</div>
+									<div class="col-md-10">
+										<h4 class="list-heading">Academic Progress Tracking</h4>
+										<p class="list-desc">Regular assessments and performance monitoring help
+											students improve consistently while supporting academic growth and learning
+											outcomes.</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="list">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-cirle">
+											<i class="bi bi-book"></i>
+										</div>
+									</div>
+									<div class="col-md-10">
+										<h4 class="list-heading">NEET / JEE / IIT / CA & Other competitive Exam</h4>
+										<p class="list-desc">Expert Coaching & Focused preparation for competitive examinations. Regular practice, mock tests and guidance help students achieve success.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="academics-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h6 class="sub-title">Curriculum</h6>
+						<h1 class="section-title">Smart Curriculum for Bright Minds!</h1>
+					</div>
+					<div class="col-md-6">
+						<p class="section-desc">The curriculum is thoughtfully designed to support students at every
+							stage, ensuring a smooth and progressive academic journey from Kindergarten to Senior
+							Secondary with balanced learning and growth.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Kindergarten</h4>
+							<img src="images/kg.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Joyful activity-based kindergarten learning that develops
+									language, numeracy, creativity, confidence, and overall physical, emotional, and
+									social growth skills.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Primary Section</h4>
+							<img src="images/primary.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Activity-based primary learning that builds communication,
+									confidence, creativity, language skills, mathematical knowledge, environmental
+									awareness, and physical development.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Middle Section</h4>
+							<img src="images/middle.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Technology-integrated middle school learning that strengthens
+									analytical thinking, academic understanding, scientific knowledge, advanced
+									concepts, and practical skill development.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row r2">
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Secondary Section</h4>
+							<img src="images/secondary.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Secondary education strengthens subject knowledge,
+									discipline, consistency, and exam readiness through structured learning,
+									assessments, and focused academic preparation.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Senior Secondary</h4>
+							<img src="images/s-secondary.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Senior secondary education offers specialized academic
+									streams, career guidance, and competitive exam preparation aligned with higher
+									education and future aspirations.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section class="academics-3">
+			<div class="container">
+				<h6 class="sub-title">Subjects Offered</h6>
+				<h1 class="section-title">Future Ready Subjects for Young Minds</h1>
+				<div class="row">
+					<div class="col-md-6 content">
+						<p class="section-desc">A comprehensive range of subjects ensures balanced academic growth by
+							combining knowledge, creativity, critical thinking, and practical learning experiences for
+							every student.</p>
+						<div class="faq-area">
+
+							<div class="panel-group" id="academicFaq">
+
+								<!-- FAQ 1 -->
+								<div class="panel faq-panel">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#academicFaq" href="#academicFaq1">
+												Core Subjects
+												<span class="pull-right">+</span>
+											</a>
+										</h4>
+									</div>
+
+									<div id="academicFaq1" class="panel-collapse collapse in">
+										<div class="panel-body">
+											<ul class="icon-list">
+												<li class="list">Language 1 : English</li>
+												<li class="list">Language 2 : Tamil, Hindi / Urdu</li>
+											<li class="list">Mathematics</li>
+												<li class="list">Science</li>
+												<li class="list">Social Science</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<!-- FAQ 2 -->
+								<div class="panel faq-panel">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#academicFaq"
+												href="#academicFaq2">
+												Additional Subjects:
+												<span class="pull-right">+</span>
+											</a>
+										</h4>
+									</div>
+
+									<div id="academicFaq2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<ul class="icon-list">
+											    	<li class="list">Language 3 : Tamil, Hindi / Urdu</li>
+												<li class="list">Computer Science</li>
+												<li class="list">Physical Education</li>
+												<li class="list">Deeniyath / Value Education</li>
+												<li class="list">Financial Literary</li>
+												<li class="list">Vocational Education </li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img src="images/subject.webp" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="academics-4-new">
+			<div class="container">
+				<div class="heading-center">
+					<h6 class="sub-title">Skills</h6>
+				<h1 class="section-title">Building Skills for Future Success</h1>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/archery-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Archery</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/chess-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Chess</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/cycle-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Cycling</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/jrc-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">JRC</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/scouts-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Scouts</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/skating-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Skating</h4>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/yoga-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Yoga</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/olympaid-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Olympiad</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/RYU-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">RYU</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/education-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">FuturEd</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/E4E-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">E4E</h4>
+							</div>
+							
+						</div>
+
+					</div>
+					<div class="col-12 col-md-2 col-lg-2">
+						<div class="image-box">
+							<div class="image">
+								<img src="images/literacy-icon.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content">
+								<h4 class="box-heading">Literacy</h4>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="academics-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h6 class="sub-title">Teaching Methodologies</h6>
+						<h1 class="section-title">Interactive Learning for Every Student</h1>
+						<p class="section-desc">The school follows a modern teaching approach that encourages student
+							participation, interactive learning, creativity, and overall academic growth effectively.
+						</p>
+						<div class="row method">
+							<div class="col-md-6">
+								<div class="box">
+									<h4 class="box-title">Activity-Based Instruction</h4>
+									<p class="box-desc">Students learn through practical activities, group tasks, and
+										creative exercises that improve understanding, confidence, teamwork, and
+										classroom participation skills.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="box">
+									<h4 class="box-title">Experiential Techniques</h4>
+									<p class="box-desc">Real-life experiences and hands-on learning methods help
+										students connect concepts practically while improving observation,
+										problem-solving, and thinking abilities.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row method">
+							<div class="col-md-6">
+								<div class="box">
+									<h4 class="box-title">Tech Classrooms</h4>
+									<p class="box-desc">Smart classrooms and digital tools create engaging lessons that
+										enhance learning experiences, improve communication, and support modern
+										education methods effectively.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="box">
+									<h4 class="box-title">Holistic Assessment</h4>
+									<p class="box-desc">Regular evaluations, assignments, and performance tracking help
+										teachers monitor progress while encouraging consistent academic improvement and
+										skill development among students.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+			</div>
+		</section>
+		<section class="academics-5">
+			<div class="container">
+
+				<div class="row academics-5-head">
+
+					<div class="col-md-6">
+						<h6 class="sub-title">Assessment & Evaluation</h6>
+						<h2 class="section-title">Modern Student Evaluation System</h2>
+					</div>
+
+					<div class="col-md-6">
+						<p class="section-desc">
+							Our assessment framework focuses on academic excellence, conceptual
+							understanding, practical learning, and continuous student development
+							through structured evaluation methods and performance tracking.
+						</p>
+					</div>
+
+				</div>
+
+				<div class="row academics-5-content">
+
+					<!-- LEFT CONTENT -->
+					<div class="col-md-5">
+
+						<div class="assessment-tabs">
+
+							<button class="assessment-btn active" onclick="showAssessmentContent('assessment', this)">
+								Assessment System
+							</button>
+
+							<button class="assessment-btn" onclick="showAssessmentContent('exam', this)">
+								Examination Pattern
+							</button>
+
+							<button class="assessment-btn" onclick="showAssessmentContent('grading', this)">
+								Grading System
+							</button>
+
+						</div>
+
+						<div class="assessment-info">
+
+							<!-- ASSESSMENT SYSTEM -->
+							<div id="assessment" class="assessment-box active-box">
+
+								<p class="assessment-para">
+									The assessment framework at Wisdom Park International School is
+									designed to track continuous progress and support the holistic
+									development of students. Following CBSE guidelines, the school
+									adopts a Continuous and Comprehensive Evaluation (CCE) approach
+									that considers both academic and co-curricular performance.
+								</p>
+
+								<h4 class="assessment-subtitle">Key Features</h4>
+
+								<ul class="assessment-list">
+									<li>Ongoing assessment throughout the academic year</li>
+									<li>Blend of oral, written, and practical evaluations</li>
+									<li>Emphasis on conceptual understanding and application</li>
+									<li>Regular and constructive feedback for students and parents</li>
+								</ul>
+
+							</div>
+
+							<!-- EXAMINATION -->
+							<div id="exam" class="assessment-box">
+
+								<p class="assessment-para">
+									The school follows a well-structured examination process to
+									measure academic performance and track student progress
+									effectively. Assessments are conducted at regular intervals to
+									ensure consistent improvement.
+								</p>
+
+								<h4 class="assessment-subtitle">Assessment Components</h4>
+
+								<ul class="assessment-list">
+									<li>Periodic Tests</li>
+									<li>Term Examinations (Half-Yearly & Annual Examination)</li>
+									<li>Internal Assessments (Notebooks, Assignments, Activities)</li>
+									<li>Practical and Project-Based Evaluations</li>
+								</ul>
+
+							</div>
+
+							<!-- GRADING -->
+							<div id="grading" class="assessment-box">
+
+								<p class="assessment-para">
+									The school follows the CBSE grading system to ensure fair and
+									transparent evaluation. Grades are awarded based on the marks
+									obtained, promoting a balanced and student-friendly assessment
+									process.
+								</p>
+
+								<h4 class="assessment-subtitle">Grade Scale</h4>
+
+								<div class="grading-wrap">
+
+									<div class="grade-card">
+										<h5>A1</h5>
+										<p>91 – 100</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>A2</h5>
+										<p>81 – 90</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>B1</h5>
+										<p>71 – 80</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>B2</h5>
+										<p>61 – 70</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>C1</h5>
+										<p>51 – 60</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>C2</h5>
+										<p>41 – 50</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>D</h5>
+										<p>33 – 40</p>
+									</div>
+
+									<div class="grade-card">
+										<h5>E</h5>
+										<p>Below 33</p>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- RIGHT IMAGE -->
+					<div class="col-md-7">
+
+						<div class="assessment-image-wrap">
+							<img src="images/assessment.webp" alt="Assessment" class="img-responsive assessment-image">
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<section class="academics-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h6 class="sub-title">Co-Scholastic Activities</h6>
+						<h1 class="section-title">Beyond Academics Through Activities</h1>
+					</div>
+					<div class="col-md-6">
+						<p class="section-desc">Co-Scholastic Activities at Wisdom Park International School encourage
+							creativity, teamwork, leadership, and confidence through sports, arts, clubs, cultural
+							events, and skill-based learning programs.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Life skills and attitude</h4>
+							<img src="images/co-1.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Life skills and positive attitude help students build confidence,
+									communication, teamwork, empathy, and positive values that support personal growth
+									and responsible<br>decision-making.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Work education</h4>
+							<img src="images/co-2.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Work education develops practical knowledge, creativity,
+									responsibility, and teamwork through hands-on activities that prepare students for
+									real-life learning experiences.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Art education</h4>
+							<img src="images/co-3.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Art education encourages imagination, creativity,
+									self-expression, and cultural awareness through drawing, music, dance, craft
+									activities, and visual learning sessions.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row r2">
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Health and physical education</h4>
+							<img src="images/co-4.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Health and physical education improve fitness, coordination,
+									discipline, teamwork, and healthy habits through sports, exercises, wellness
+									programs, and activities.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="box-title">Discipline and behaviour</h4>
+							<img src="images/co-5.webp" alt="" class="img-fluid">
+							<div class="box-content">
+								<p class="box-descripiton">Discipline and behaviour shape respectful attitudes,
+									responsibility, punctuality, honesty, and positive conduct that help students grow
+									into confident individuals.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section class="school">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6" data-aos="fade-right">
+						<h6 class="sub-title">Academic Performance Criteria</h6>
+						<h1>Academic Excellence & Evaluation Hub</h1>
+						<p class="para">The school ensures that students achieve academic excellence through a balanced,
+							transparent, and comprehensive assessment system designed to support continuous growth and
+							learning. The evaluation process focuses on both scholastic and co-scholastic development
+							while encouraging conceptual understanding, creativity, and practical application of
+							knowledge in daily learning activities.</p>
+						<p class="para">
+							Evaluation criteria include performance in written examinations, periodic tests,
+							assignments, project work, practical activities, attendance, classroom participation, and
+							overall academic progress. The school follows CBSE guidelines and minimum passing
+							requirements to ensure students maintain consistent performance, discipline, and active
+							involvement throughout the academic year.
+						</p>
+					</div>
+					<div class="col-md-6" data-aos="fade-left">
+						<img src="images/academic-eva.webp" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+	<?=template_footer()?>
+
+
+
+
+
+
+
+	<script>
+		function showAssessmentContent(id, button) {
+
+			var boxes = document.querySelectorAll('.assessment-box');
+			var buttons = document.querySelectorAll('.assessment-btn');
+
+			boxes.forEach(function (box) {
+				box.classList.remove('active-box');
+			});
+
+			buttons.forEach(function (btn) {
+				btn.classList.remove('active');
+			});
+
+			document.getElementById(id).classList.add('active-box');
+			button.classList.add('active');
+		}
+	</script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

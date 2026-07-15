@@ -1,0 +1,260 @@
+<?php include 'function.php'?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Facilities - Wisdom Park International Schoool (CBSE)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link id="favicon" rel="shortcut icon" type="image/png" href="images/fav-icon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header-reponsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<?=template_header()?>
+
+	
+
+	<section class="fac-1">
+		<div class="container">
+			<div class="heading text-center">
+				<h6 class="sub-title">Facilities</h6>
+				<h1 class="title">World Class Student Facilities Hub</h1>
+				<p class="desc">Modern facilities designed to support learning, creativity, sports, safety,<br>and
+					overall student development in a comfortable environment.</p>
+			</div>
+			<div class="fac-content">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="number">
+							<h4 class="number-icon">1</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/smart-class.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Smart Room With Tv (KG)</h4>
+								<p class="content-desc">Our KG smart classrooms with TV create an engaging learning environment where children enjoy interactive lessons, educational videos, rhymes, and visual activities that make learning fun.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+					    <div class="number">
+							<h4 class="number-icon">2</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/digital-classroom.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Neo Touch (Secondary)</h4>
+								<p class="content-desc">Neo Touch Panels enhance classroom learning with interactive lessons, multimedia content, and real-time collaboration, helping secondary students understand concepts better and stay engaged.</p>
+							</div>
+						</div>
+						
+
+					</div>
+					<div class="col-md-3">
+					    <div class="number">
+							<h4 class="number-icon">3</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/science-lab.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Science Lab</h4>
+								<p class="content-desc">Modern Science Lab equipped with advanced instruments and facilities, enabling hands-on learning, scientific research, experimentation, innovation, and discovery.</p>
+							</div>
+						</div>
+											</div>
+					<div class="col-md-3">
+					    <div class="number">
+							<h4 class="number-icon">4</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/computer-lab.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Computer Lab</h4>
+								<p class="content-desc">Modern computer labs with updated systems support digital
+									learning, programming skills, project work, and hands-on technology experience for
+									students.</p>
+							</div>
+						</div>
+											</div>
+
+				</div>
+				<div class="row r2">
+					<div class="col-md-3">
+					    <div class="number">
+							<h4 class="number-icon">5</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/library.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Library</h4>
+								<p class="content-desc">The library offers rich academic resources, books, and reference
+									materials that encourage reading habits, independent learning, and curiosity.</p>
+							</div>
+						</div>
+										</div>
+					<div class="col-md-3">
+					    	<div class="number">
+							<h4 class="number-icon">6</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/sports-playground.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Sports Facilities</h4>
+								<p class="content-desc">Well-equipped sports facilities encourage fitness, teamwork,
+									discipline, and active participation through indoor and outdoor games for students.
+								</p>
+							</div>
+						</div>
+					
+					</div>
+					<div class="col-md-3">
+					    	<div class="number">
+							<h4 class="number-icon">7</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/transport.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Transport Facility</h4>
+								<p class="content-desc">A safe and reliable transport system operates across multiple
+									routes for student convenience. The buses are well-maintained and monitored, with
+									trained drivers and staff ensuring secure and punctual travel.</p>
+							</div>
+						</div>
+										</div>
+					<div class="col-md-3">
+					    	<div class="number">
+							<h4 class="number-icon">8</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/kindergarten.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Kindergarten Play Area</h4>
+								<p class="content-desc">Colourful kindergarten play area designed for safe fun, active
+									learning, creativity, and joyful childhood experiences.</p>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+				<div class="row r2">
+					<div class="col-md-3">
+					    <div class="number">
+							<h4 class="number-icon">9</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/cctv.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">CCTV Surveillance</h4>
+								<p class="content-desc">The campus is monitored with continuous CCTV surveillance to
+									ensure safety, discipline, and a secure environment for students and staff.</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-md-3">
+					    <div class="number">
+							<h4 class="number-icon">9</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/playground.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Playground Area</h4>
+								<p class="content-desc">Spacious playground area with safe facilities for sports,
+									outdoor games, physical activities, fitness, and enjoyable student recreation.</p>
+							</div>
+						</div>
+						
+
+					</div>
+					<div class="col-md-3">
+						 <div class="number">
+							<h4 class="number-icon">10</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/infrastructure.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Infrastructure Facilities</h4>
+								<p class="content-desc">Modern infrastructure facilities with spacious classrooms,
+									safety features, smart learning spaces, and student-friendly amenities.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+					   <div class="number">
+							<h4 class="number-icon">12</h4>
+						</div>
+						<div class="image-box">
+							<div class="image">
+								<img src="images/indoor-games.webp" alt="" class="img-fluid">
+							</div>
+							<div class="content text-center">
+								<h4 class="content-title">Indoor Games</h4>
+								<p class="content-desc">Indoor game facilities encourage teamwork, focus, physical activity, relaxation, and recreation daily for students.</p>
+							</div>
+						</div>
+					
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<?=template_footer()?>
+
+
+
+
+
+
+
+
+
+	<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+	<script>
+		// Prevent browser from restoring scroll position on refresh
+		if ('scrollRestoration' in history) {
+			history.scrollRestoration = 'manual';
+		}
+		window.onload = function () {
+			window.scrollTo(0, 0);
+		};
+	</script>
+</body>
+
+</html>

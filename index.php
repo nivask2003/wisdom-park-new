@@ -1,0 +1,672 @@
+<?php include 'function.php'?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Wisdom Park International Schoool (CBSE)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link id="favicon" rel="shortcut icon" type="image/png" href="images/fav-icon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header-reponsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+	
+<?=template_header()?>
+	<section class="hero-section">
+
+        <!-- Background Video -->
+        <video autoplay="" muted="" loop="" playsinline="" class="hero-video" poster="Assets/Images/slide-1.png">&gt;
+            <source src="images/hero-video.mp4" type="video/mp4">
+        </video>
+
+        <!-- Overlay -->
+        <div class="hero-overlay"></div>
+    </section>
+
+
+	<section class="title" id="section6">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-5 animate-box" data-animate="animate__slideInLeft">
+						<img src="images/about-1.webp" class="img-responsive ro">
+					</div>
+					<div class="col-md-7 animate-box" data-animate="animate__slideInRight">
+						<h6 class="sub-title">Welcome to</h4>
+							<h1> Wisdom Park<span> International </span>CBSE School</h1>
+							<p>Wisdom Park International School (CBSE) is a progressive educational institution
+								committed to nurturing young minds through a balanced blend of academic excellence and
+								value-based learning, and provides a dynamic and inclusive environment where students
+								are encouraged to explore their potential, develop critical thinking skills, and grow
+								into confident individuals</p>
+							<div class="features-block-style1 fir">
+								<div class="inner-block">
+									<div class="content-box">
+										<div class="icon">
+											<img src="images/arrow-icon.png" class="img-responsive">
+										</div>
+
+										<h5 class="features-title">
+											CBSE Affiliation Details </h5>
+										<div class="features-details">It is affiliated with the Central Board of
+											Secondary Education (CBSE)</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="features-block-style1">
+								<div class="inner-block">
+									<div class="content-box">
+										<div class="icon">
+											<img src="images/arrow-icon.png" class="img-responsive">
+										</div>
+
+										<h5 class="features-title">
+											History & Establishment </h5>
+										<div class="features-details">It has earned a strong reputation for fostering
+											discipline, innovation, character development</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="features-block-style1 las">
+								<div class="inner-block">
+									<div class="content-box">
+										<div class="icon">
+											<img src="images/arrow-icon.png" class="img-responsive">
+										</div>
+
+										<h5 class="features-title">
+											School Philosophy </h5>
+										<div class="features-details">Through activity-based learning, multiple
+											intelligences strategies, and experiential methods</div>
+
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="container-fluid doon-why-section">
+		<div class="doon-why-box">
+			<div class="row align-items-center">
+
+				<!-- LEFT IMAGE -->
+				<div class="col-lg-6 col-md-12 doon-why-left">
+					<img src="images/why-choose.webp" alt="Why Choose Wisdom">
+				</div>
+
+				<!-- RIGHT CONTENT -->
+				<div class="col-lg-6 col-md-12 doon-why-right">
+
+					<h6 class="sub-title" style="margin-top: 30px;">Why Choose us</h6>
+
+					<h2 class="doon-why-title">Empowering Young Minds for Success</h2>
+
+					<p class="doon-why-desc">
+						At Wisdom Park International School, we focus on shaping
+						well-rounded individuals through academic excellence,
+						strong values, and future-ready learning.
+					</p>
+
+					<div class="doon-feature-grid">
+
+						<!-- ITEM 1 -->
+						<div class="doon-feature-item doon-br doon-bb">
+							<div class="doon-feature-inner">
+								<i class="bi bi-book"></i>
+								<h3>
+									CBSE <br>
+									Excellence
+								</h3>
+
+								<p>
+									Strong CBSE curriculum for academic growth and future success.
+								</p>
+							</div>
+						</div>
+
+						<!-- ITEM 2 -->
+						<div class="doon-feature-item doon-bb">
+							<div class="doon-feature-inner">
+								<i class="bi bi-mortarboard"></i>
+
+								<h3>
+									Holistic <br>
+									Development
+								</h3>
+
+								<p>
+									Balanced focus on academics, values, creativity, and<br>growth.
+								</p>
+							</div>
+						</div>
+
+						<!-- ITEM 3 -->
+						<div class="doon-feature-item doon-br">
+							<div class="doon-feature-inner">
+								<i class="bi bi-lightbulb"></i>
+
+								<h3>
+									Modern <br>
+									Learning
+								</h3>
+
+								<p>
+									Activity-based learning that builds confidence and skills.
+								</p>
+							</div>
+						</div>
+
+						<!-- ITEM 4 -->
+						<div class="doon-feature-item">
+							<div class="doon-feature-inner">
+								<i class="bi bi-globe-central-south-asia"></i>
+
+								<h3>
+									Global <br>
+									Leaders
+								</h3>
+
+								<p>
+									Preparing confident leaders for global opportunities.
+								</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="title" id="section4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 animate-box" data-animate="animate__slideInUp">
+					<div class="head">
+						<h6 class="sub-title">Our Programs</h4>
+							<h1>Our Shaping Future Through Academics</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="service-block animate-box" data-animate="animate__slideInLeft">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="service-featured-img">
+									<img src="images/kg-academic.webp">
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="title-box">
+									<div class="number">01</div>
+									<h4 class="service-title">
+										<a href="#">
+											Kindergarten </a>
+									</h4>
+								</div>
+								<a href="#" class="icon-box"><i class="icon fa fa-hand-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="service-block animate-box" data-animate="animate__slideInRight">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="service-featured-img">
+									<img src="images/primary-academic.webp">
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="title-box">
+									<div class="number">02</div>
+									<h4 class="service-title">
+										<a href="#">
+											Primary Section </a>
+									</h4>
+								</div>
+								<a href="#" class="icon-box"><i class="icon fa fa-hand-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="service-block animate-box" data-animate="animate__slideInLeft">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="service-featured-img">
+									<img src="images/middle-academic.webp">
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="title-box">
+									<div class="number">03</div>
+									<h4 class="service-title">
+										<a href="#">
+											Middle Section </a>
+									</h4>
+								</div>
+								<a href="#" class="icon-box"><i class="icon fa fa-hand-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="service-block animate-box" data-animate="animate__slideInRight">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="service-featured-img">
+									<img src="images/secondary-acdemic.webp">
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="title-box">
+									<div class="number">04</div>
+									<h4 class="service-title">
+										<a href="#">
+											Secondary Section </a>
+									</h4>
+								</div>
+								<a href="#" class="icon-box"><i class="icon fa fa-hand-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="service-block animate-box" data-animate="animate__slideInLeft">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="service-featured-img">
+									<img src="images/higher-academic.webp">
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="title-box">
+									<div class="number">05</div>
+									<h4 class="service-title">
+										<a href="#">
+											Senior Secondary </a>
+									</h4>
+								</div>
+								<a href="#" class="icon-box"><i class="icon fa fa-hand-o-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="wisdom-life-main-wrap">
+
+		<div class="container-fluid">
+
+			<!-- Heading -->
+			<div class="wisdom-life-heading-box">
+
+				<h6 class="sub-title" style="margin-top:30px;">
+					Life at Moments
+				</h6>
+
+				<h2 class="wisdom-life-main-title">
+					Unforgettable Memorable Moments Gallery
+				</h2>
+
+			</div>
+
+			<!-- Description -->
+			<div class="wisdom-life-description">
+				<p>
+					Our holistic education nurtures knowledge, creativity, discipline, skills, leadership, confidence,
+					<be>and values to shape every student’s successful future.
+				</p>
+			</div>
+
+			<!-- Carousel -->
+			<div class="owl-carousel wisdom-life-carousel">
+
+				<!-- Card 1 -->
+				<div class="wisdom-life-card-item">
+
+					<img src="images/festival-gallery.webp" alt="Academics">
+
+					<div class="wisdom-life-card-overlay">
+						<h3>Festival</h3>
+					</div>
+
+				</div>
+
+				<!-- Card 2 -->
+				<div class="wisdom-life-card-item">
+
+					<img src="images/other-gallery.webp" alt="Pastoral">
+
+					<div class="wisdom-life-card-overlay">
+						<h3>Other Activities</h3>
+					</div>
+
+				</div>
+
+				<!-- Card 3 -->
+				<div class="wisdom-life-card-item">
+
+					<img src="images/celebration-gallery.webp" alt="Activities">
+
+					<div class="wisdom-life-card-overlay">
+						<h3>Celebration</h3>
+					</div>
+
+				</div>
+
+				<!-- Card 4 -->
+				<div class="wisdom-life-card-item">
+
+					<img src="images/sports-gallery.webp" alt="Sports">
+
+					<div class="wisdom-life-card-overlay">
+						<h3>Sports</h3>
+					</div>
+
+				</div>
+
+				<!-- Card 5 -->
+				<div class="wisdom-life-card-item">
+
+					<img src="images/awards-gallery.webp" alt="Service">
+
+					<div class="wisdom-life-card-overlay">
+						<h3>Awards</h3>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+	<section class="title" id="section3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-6 animate-box" data-animate="animate__slideInLeft">
+						<h6 class="sub-title">Our School</h4>
+							<h1>Modern Facilities for Better Learning</h1>
+					</div>
+					<div class="col-md-6 animate-box" data-animate="animate__slideInRight">
+						<p class="right">Our campus offers modern facilities designed for comfort and learning.Every
+							space is built to support student growth and success.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3 animate-box" data-animate="animate__slideInLeft">
+						<div class="working-block-style2">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/smart-class.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">01</div>
+									</div>
+								</div>
+								<div class="content-box">
+									<h4 class="working-title">Smart Classrooms</h4>
+									<p>The classrooms are well-<br>ventilated, spacious...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box" data-animate="animate__slideInUp">
+						<div class="working-block-style2 even">
+							<div class="inner-box">
+
+								<div class="content-box">
+									<h4 class="working-title">Science Lab</h4>
+									<p>The school houses well-<br>equipped laboratories...</p>
+								</div>
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/science-lab.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">02</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box" data-animate="animate__slideInUp">
+						<div class="working-block-style2">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/computer-lab.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">03</div>
+									</div>
+								</div>
+								<div class="content-box">
+									<h4 class="working-title">Computer Lab</h4>
+									<p>The computer lab features<br> modern systems...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box" data-animate="animate__slideInRight">
+						<div class="working-block-style2 even">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/library.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">04</div>
+									</div>
+								</div>
+								<div class="content-box">
+									<h4 class="working-title">Library</h4>
+									<p>The library serves as a <br>knowledge hub with a</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3 animate-box" data-animate="animate__slideInLeft">
+						<div class="working-block-style2">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/sports-playground.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">05</div>
+									</div>
+								</div>
+								<div class="content-box">
+									<h4 class="working-title">Sports & Playground</h4>
+									<p>Extensive sports facilities &<br> well-maintained ...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box" data-animate="animate__slideInUp">
+						<div class="working-block-style2 even">
+							<div class="inner-box">
+
+								<div class="content-box">
+									<h4 class="working-title">Transport Facility</h4>
+									<p>A safe and reliable transport<br> system operates...</p>
+								</div>
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/transport.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">06</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box" data-animate="animate__slideInUp">
+						<div class="working-block-style2">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/kindergarten.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">07</div>
+									</div>
+								</div>
+								<div class="content-box">
+									<h4 class="working-title">Kindergarten Playarea</h4>
+									<p>Safe, fun play area for<br>kindergarten kids.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box" data-animate="animate__slideInRight">
+						<div class="working-block-style2 even">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="service-featured-img">
+										<img src="images/cctv.webp" class="img-responsive">
+									</div>
+									<div class="circle-box">
+										<div class="working-count">08</div>
+									</div>
+								</div>
+								<div class="content-box">
+									<h4 class="working-title">CCTV Surveillance</h4>
+									<p>The campus is under continuous <br>CCTV surveillance</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="instagram-feed-main-wrap">
+
+		<div class="container-fluid">
+
+			<div class="row">
+
+				<!-- Post 1 -->
+				<div class="col-md-15 col-sm-6 col-xs-12">
+
+					<div class="instagram-feed-box">
+
+						<iframe src="https://www.instagram.com/reel/DXjgUJNDovD/embed" allowtransparency="true"
+							scrolling="no" frameborder="0">
+						</iframe>
+
+					</div>
+
+				</div>
+
+				<!-- Post 2 -->
+				<div class="col-md-15 col-sm-6 col-xs-12">
+
+					<div class="instagram-feed-box">
+
+						<iframe src="https://www.instagram.com/reel/DJY-xPwyXuc/embed" allowtransparency="true"
+							scrolling="no" frameborder="0">
+						</iframe>
+
+					</div>
+
+				</div>
+
+				<!-- Post 3 -->
+				<div class="col-md-15 col-sm-6 col-xs-12">
+
+					<div class="instagram-feed-box">
+
+						<iframe src="https://www.instagram.com/reel/DXo_oCijScY/embed" allowtransparency="true"
+							scrolling="no" frameborder="0">
+						</iframe>
+
+					</div>
+
+				</div>
+
+				<!-- Post 4 -->
+				<div class="col-md-15 col-sm-6 col-xs-12">
+
+					<div class="instagram-feed-box">
+
+						<iframe src="https://www.instagram.com/reel/DXmE62RjgD4/embed" allowtransparency="true"
+							scrolling="no" frameborder="0">
+						</iframe>
+
+					</div>
+
+				</div>
+
+				<!-- Post 5 -->
+				<div class="col-md-15 col-sm-6 col-xs-12">
+
+					<div class="instagram-feed-box">
+
+						<iframe src="https://www.instagram.com/reel/DXRzPoRjVHd/embed" allowtransparency="true"
+							scrolling="no" frameborder="0">
+						</iframe>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<?=template_footer()?>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="js/gallery-carsouel.js"></script>
+	<script async src="//www.instagram.com/embed.js"></script>
+
+
+</body>
+
+</html>
