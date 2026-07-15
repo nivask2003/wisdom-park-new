@@ -6018,3 +6018,169 @@ header .bottom-header .navbar-brand {
     color: #555;
     font-weight: 400;
 }
+
+.blog-1 .post-box{
+    position: relative;
+}
+
+.blog-1 .post-box .content {
+    background: #00000085;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-1 .post-box .content h4.box-title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.blog-1 .post-box .content a.btn {
+    background: #03ac36;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.blog-1 .post-box:hover .content{
+    display: flex;
+}
+
+.blog-1 > .container > .row:nth-of-type(3){
+    margin-top: 20px;
+}
+
+/* ============================================================
+   BLOG SECTION RESPONSIVE FIXES — added
+   Targets: .blog-1 (Blogs / Insights section).
+   Desktop (>991px) is untouched — every rule below lives inside
+   a max-width media query, so the 3-column layout, hover reveal,
+   and existing font sizes stay exactly as designed on desktop.
+   Breakpoints (991 / 767 / 480 / 360) match the ones already used
+   elsewhere in this file, so the same rules also cover browser
+   zoom above 100% on a normal desktop (zooming in shrinks the
+   effective viewport width and lands on these same breakpoints).
+   Zoom below 100% just leaves more room inside the existing
+   desktop rules, which are untouched.
+   ============================================================ */
+
+/* ---- Tablets: trim the very large heading/paragraph sizes so
+   they don't dominate the narrower column width. ---- */
+@media (max-width: 991px) {
+    .blog-1 {
+        margin: 55px 0;
+    }
+
+    .blog-1 h1.title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .blog-1 p.desc {
+        font-size: 16px;
+    }
+}
+
+/* ---- Phones/small tablets: the hover-only overlay
+   (.post-box .content) can never be seen on a touch screen since
+   there's no hover state, so make it always visible here instead
+   of only on :hover. Also right-size text and tidy spacing for the
+   stacked (col-12) cards. ---- */
+@media (max-width: 767px) {
+    .blog-1 {
+        margin: 40px 0;
+    }
+
+    .blog-1 h1.title {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .blog-1 p.desc {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .blog-1 p.desc br {
+        display: none;
+    }
+
+    .blog-1 .post-box {
+        margin-bottom: 20px;
+    }
+
+    .blog-1 .post-box .content {
+        display: flex;
+    }
+
+    .blog-1 .post-box .content h4.box-title {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 12px;
+    }
+
+    .blog-1 .post-box .content a.btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .blog-1 > .container > .row:nth-of-type(3) {
+        margin-top: 0;
+    }
+}
+
+/* ---- Small phones ---- */
+@media (max-width: 480px) {
+    .blog-1 h1.title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .blog-1 .sub-title {
+        font-size: 14px;
+    }
+
+    .blog-1 p.desc {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .blog-1 .post-box .content h4.box-title {
+        font-size: 18px;
+    }
+}
+
+/* ---- Very small phones ---- */
+@media (max-width: 360px) {
+    .blog-1 h1.title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .blog-1 .post-box .content h4.box-title {
+        font-size: 16px;
+    }
+
+    .blog-1 .post-box .content a.btn {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+/* ---- Touch devices: same reasoning as the max-width:767px rule
+   above — no hover means the overlay must show without it. This
+   catches touch-capable tablets/laptops above 767px too, without
+   affecting real mouse/desktop hover behavior. ---- */
+@media (hover: none) {
+    .blog-1 .post-box .content {
+        display: flex;
+    }
+}

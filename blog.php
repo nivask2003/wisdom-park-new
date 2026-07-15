@@ -28,6 +28,57 @@
 					<p class="desc">Stay updated with our latest school news, student achievements, inspiring stories,
 						educational events,<br>and activities that shape every learner's journey.</p>
 				</div>
+                <div class="row">
+                    
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="post-box">
+                                <img src="images/post-2.webp" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="box-title">June 2025</h4>
+                                <a href="images\June Newsletter 2025.pdf" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="post-box">
+                                <img src="images/post-3.webp" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="box-title">July 2025</h4>
+                                <a href="images\July Newsletter 2025.pdf" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="post-box">
+                                <img src="images/post-1.webp" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="box-title">August 2025</h4>
+                                <a href="images\August Newsletter 2025.pdf" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="post-box">
+                                <img src="images/post-4.webp" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="box-title">Sep,Oct & Nov 2025</h4>
+                                <a href="images\Sep,Oct & Nov 2025.pdf" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="post-box">
+                                <img src="images/post-5.webp" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="box-title">Dec, Jan & Feb</h4>
+                                <a href="images\Dec, Jan & Feb.pdf" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</section>
 	</main>
