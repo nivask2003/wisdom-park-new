@@ -5886,19 +5886,19 @@ header .bottom-header .navbar-brand {
    keeps the original 500px. ---- */
 @media (max-width: 1024px) {
     header .middle-header img.img-fluid {
-        width: 320px;
+        width: 500px;
     }
 }
 
 @media (max-width: 576px) {
     header .middle-header img.img-fluid {
-        width: 230px;
+        width: 500px;
     }
 }
 
 @media (max-width: 360px) {
     header .middle-header img.img-fluid {
-        width: 190px;
+        width: 500px;
     }
 }
 
@@ -6182,5 +6182,33 @@ header .bottom-header .navbar-brand {
 @media (hover: none) {
     .blog-1 .post-box .content {
         display: flex;
+    }
+}
+
+@media (max-width:482px){
+    header .top-header .column-2 a{
+        display: none;
+    }
+
+    header .bottom-header .navbar-brand a {
+        background: #fb0405;
+        color: #fff;
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+
+    header .bottom-header .navbar-brand{
+        padding-top: 21px;
+    }
+}
+
+.bottom-header .navbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:482px){
+    .bottom-header .navbar .container{
+        display: block;
     }
 }
