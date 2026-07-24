@@ -2,183 +2,199 @@
 
 function template_header(){
     echo <<< EOT
-        <header>
-            <div class="top-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-6 column-1">
-                            <a href="blog.php">Blogs / Newsletter</a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6 column-2">
-                            <a href="mandatory-disclosure.php">Mandatory Disclosure</a>
-                        </div>
+         <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 column-1">
+                        <a href="blog.php">Blogs / Newsletter</a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 column-2">
+                        <a href="mandatory-disclosure.php">Mandatory Disclosure</a>
                     </div>
                 </div>
-
             </div>
-            <section class="admission-announcement">
-                        <div class="announcement-track">
-                            <div class="announcement-content">
-                                <span class="icon">
-                                    <i class="bi bi-megaphone-fill"></i>
-                                </span>
 
-                                <span>
-                                    Empowering Muslim girls to become confident, independent, and responsible women through holistic education.
-                                </span>
+        </div>
+        <section class="admission-announcement"> 
+            <div class="row"> 
+                <div class="col-12 col-md-2 col-lg-2 heading"> 
+                    <div class="title"> 
+                        School Moto 
+                    </div> 
+                </div> 
+                <div class="col-12 col-md-10 col-lg-10"> 
+                    <div class="announcement-track"> 
+                <div class="announcement-content"> 
+                    <span class="icon"> 
+                        <i class="bi bi-megaphone-fill"></i> 
+                    </span> 
 
+                    <span> 
+                        Empowering Muslim girls to become confident, independent, and responsible women through holistic 
+                        education. 
+                    </span> 
 
+                    <!-- Duplicate for seamless loop --> 
+                    <span class="icon"> 
+                        <i class="bi bi-megaphone-fill"></i> 
+                    </span> 
 
-                                <!-- Duplicate for seamless loop -->
-                                <span class="icon">
-                                    <i class="bi bi-megaphone-fill"></i>
-                                </span>
+                    <span> 
+                        Encouraging higher education and lifelong learning to build successful futures and meaningful 
+                        careers. 
+                    </span> 
+                    <span class="icon"> 
+                        <i class="bi bi-megaphone-fill"></i> 
+                    </span> 
 
-                                <span>
-                                    Encouraging higher education and lifelong learning to build successful futures and meaningful careers.
-                                </span>
+                    <span> 
+                        Providing life cycling facilities for Muslim students, promoting practical skills, confidence, and well-being. 
+                    </span> 
 
+                </div> 
+                </div> 
+            </div> 
 
+            </div> 
+        </section>
+        <div class="middle-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <a href="index.php">
+                            <img src="images/logo.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-7">
+                        <div class="row">
+                            <div class="col-12 col-md-5 col-lg-5">
+                                <div class="total">
+                                    <i class="fa fa-phone"></i>
+
+                                    <div class="text">
+                                        <h4>Call Anytime:</h4>
+
+                                        <p>
+                                            <a href="tel:+917639651222">
+                                                +91 763 965 1222
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-7">
+                                <div class="total">
+                                    <i class="fa fa-envelope"></i>
+
+                                    <div class="text">
+                                        <h4>Email Us:</h4>
+
+                                        <p>
+                                            <a href="mailto:office@wisdomparkschool.com">
+                                                office@wisdomparkschool.com
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </section>
-            <div class="middle-header">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-header">
+            <nav class="navbar">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-5 col-lg-5">
-                            <a href="index.php">
-                                <img src="images/logo.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-7 col-lg-7">
-                            <div class="row">
-                                <div class="col-12 col-md-5 col-lg-5">
-                                    <div class="total">
-                                        <i class="fa fa-phone"></i>
-
-                                        <div class="text">
-                                            <h4>Call Anytime:</h4>
-
-                                            <p>
-                                                <a href="tel:+917639651222">
-                                                    +91 763 965 1222
-                                                </a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-7 col-lg-7">
-                                    <div class="total">
-                                        <i class="fa fa-envelope"></i>
-
-                                        <div class="text">
-                                            <h4>Email Us:</h4>
-
-                                            <p>
-                                                <a href="mailto:office@wisdomparkschool.com">
-                                                    office@wisdomparkschool.com
-                                                </a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div class="navbar-brand">
+                        <a href="mandatory-disclosure.php">Mandatory Disclosure</a>
                     </div>
+                    <!-- Brand and toggle -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.php">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li>
+                                <a href="about.php">About <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Academics <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="academics.php">Academics Procedure</a></li>
+                                    <li><a href="images/CALENDAR PDF.pdf">Academic Calender</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Activities <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Exam</a></li>
+                                    <li><a href="events.php">Events</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="facilities.php">Facilities <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Admission <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Admission Procedure</a></li>
+                                    <li><a href="#">Admission Form</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="gallery.php">Gallery <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li>
+                                <a href="contact.php">Contact <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+
+                    </div>
+
                 </div>
+            </nav>
+        </div>
+    </header>
+    <script>
+        $(document).ready(function () {
 
-            </div>
-            <div class="bottom-header">
-                <nav class="navbar">
-                    <div class="container-fluid">
-                        <div class="navbar-brand">
-                            <h5>Menu</h5>
-                        </div>
-                        <!-- Brand and toggle -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
+            $('.navbar-toggle').click(function () {
+                $(this).toggleClass('open');
+            });
 
-                        <!-- Navbar links -->
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            $('.navbar-collapse').on('hidden.bs.collapse', function () {
+                $('.navbar-toggle').removeClass('open');
+            });
 
-                            <ul class="nav navbar-nav">
-                                <li class="active">
-                                    <a href="index.php">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li>
-                                    <a href="about.php">About <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        Academics <span class="caret"></span>
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a href="academics.php">Academics Procedure</a></li>
-                                        <li><a href="images/CALENDAR PDF.pdf">Academic Calender</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        Activities <span class="caret"></span>
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Exam</a></li>
-                                        <li><a href="events.php">Events</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="facilities.php">Facilities <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        Admission <span class="caret"></span>
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Admission Procedure</a></li>
-                                        <li><a href="#">Admission Form</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="gallery.php">Gallery <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li>
-                                    <a href="contact.php">Contact <span class="sr-only">(current)</span></a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                </nav>
-            </div>
-        </header>
-            <script>
-            $(document).ready(function () {
-
-        $('.navbar-toggle').click(function () {
-            $(this).toggleClass('open');
         });
-
-        $('.navbar-collapse').on('hidden.bs.collapse', function () {
-            $('.navbar-toggle').removeClass('open');
-        });
-
-    });
-        </script>
+    </script>
     EOT;
 }
 

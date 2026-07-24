@@ -51,7 +51,7 @@
 						</div>
 						<div class="image-box">
 							<div class="image">
-								<img src="images/digital-classroom.webp" alt="" class="img-fluid">
+								<img src="images\neo-touch.webp" alt="" class="img-fluid">
 							</div>
 							<div class="content text-center">
 								<h4 class="content-title">Neo Touch (Secondary)</h4>

@@ -78,6 +78,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="post-box">
+                                <img src="images/post-6.webp" alt="" class="img-fluid">
+                            <div class="content">
+                                <h4 class="box-title">June 2026</h4>
+                                <a href="images\JUNE NEWSLETTER.pdf" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 			</div>
 		</section>
