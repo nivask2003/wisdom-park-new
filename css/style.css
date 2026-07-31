@@ -5590,6 +5590,16 @@ header .bottom-header .nav li:hover{
     background-color: #05af34 !important;
 }
 
+header .bottom-header .nav li.active,
+header .bottom-header .nav li.dropdown.active {
+    background-color: #05af34 !important;
+}
+
+header .bottom-header .nav li.active > a,
+header .bottom-header .nav li.dropdown.active > a {
+    color: #fff !important;
+}
+
 header .bottom-header .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
     background-color: #05af34;
     color: #fff;
@@ -5614,8 +5624,9 @@ header .bottom-header .dropdown-menu>li>a:hover{
     color: #fff;
     overflow: hidden;
     white-space: nowrap;
-    padding: 12px 0;
     position: relative;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .announcement-track {
@@ -5643,6 +5654,50 @@ header .bottom-header .dropdown-menu>li>a:hover{
 
     to {
         transform: translateX(-50%);
+    }
+}
+
+/* ============================================================
+   ADMISSION ANNOUNCEMENT — static title / scrolling content
+   The marquee animation only ever lived on .announcement-track,
+   so the "School Moto" title was already not animating — but the
+   right-hand column (.col-md-8) had no overflow clipping of its
+   own, only the outer section did. That let the scrolling track
+   bleed visually over the title column instead of staying inside
+   its own half. This scopes proper layout + clipping to each side.
+   ============================================================ */
+.admission-announcement .row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/* Left column: static label, never animates, never scrolls */
+.admission-announcement .row > [class*="col-"]:first-child .title {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* Right column: the only part that scrolls — clip it to its own
+   half so the track can't visually spill onto the title side */
+.admission-announcement .row > [class*="col-"]:last-child {
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .admission-announcement .row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .admission-announcement .row > [class*="col-"]:first-child .title {
+        font-size: 14px;
     }
 }
 
@@ -6210,5 +6265,300 @@ header .bottom-header .navbar-brand {
 @media(max-width:482px){
     .bottom-header .navbar .container{
         display: block;
+    }
+}
+
+.admission-announcement .col-12.col-md-2.col-lg-2.heading {
+    background: #fb0405;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:482px){
+    .admission-announcement .col-12.col-md-2.col-lg-2.heading{
+        display: none !important;
+    }
+}
+
+
+.message-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.message-1 .image img.img-fluid{
+    border-radius: 20px;
+}
+
+.message-1 .image{
+    position: relative;
+}
+
+.message-1 .image img.img-fluid{
+    position: relative;
+}
+
+.message-1 .image::before{
+        position: absolute;
+    content: "";
+    background-color: #e9f5fb;
+    height: 109%;
+    width: 109%;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 20px;
+}
+
+.message-1 .image-content{
+    padding-left: 38px;
+}
+
+.message-1 .heading-center h1{
+        font-size: 42px;
+    font-weight: 800;
+    color: #1f4c7a;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    font-family: "Outfit", sans-serif;
+    margin-top: 0;
+}
+
+.message-1 .content blockquote {
+    padding: 28px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #1f4c7a;
+    background: #e9f5fb;
+    border-radius: 20px;
+}
+
+.message-1 .content p{
+        font-size: 15px;
+    color: #121212;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: "DM Sans", sans-serif;
+    text-align: justify;
+}
+
+.message-1 .content .role h2{
+      margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #12395c;
+    font-family: 'Outfit', sans-serif;
+    /* transform: rotate(-8deg); */
+    padding-bottom: 18px;
+    border-bottom: 2px solid #ddd;
+    width: 360px;
+}
+
+.message-1 .content .role .sub-title::before{
+    display: none;
+}
+
+/* ============================================================
+   SECRETARY & CORRESPONDENT MESSAGE (.message-1) — RESPONSIVE
+   + LIMITED HOVER ANIMATION
+   Scoped entirely to .message-1; nothing outside this selector
+   is touched. Breakpoints match the site-wide pattern already
+   used elsewhere (1199 / 991 / 767 / 480 / 360) so browser zoom
+   above 100% (which shrinks the effective viewport) lands on
+   the same rules automatically. Extra guards near the end handle
+   zoom below 100% / very wide screens and in-between zoom steps.
+   ============================================================ */
+
+/* ---- Base: fluid type so text scales smoothly between the
+   breakpoints instead of jumping ---- */
+.message-1 .heading-center h1 {
+    font-size: clamp(26px, 4vw, 42px);
+}
+
+.message-1 .content blockquote {
+    font-size: clamp(15px, 1.8vw, 17.5px);
+    line-height: 1.7;
+}
+
+.message-1 .content p {
+    font-size: clamp(14px, 1.5vw, 15px);
+}
+
+.message-1 .content .role h2 {
+    font-size: clamp(22px, 2.8vw, 32px);
+    width: 100%;
+    max-width: 360px;
+}
+
+/* ---- Limited hover: a gentle lift + zoom on the portrait only.
+   Nothing else in this section reacts to hover. ---- */
+.message-1 .image img.img-fluid {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.message-1 .image:hover img.img-fluid {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Disable the hover on touch devices so nothing gets stuck mid-
+   animation after a tap (same reasoning already used for
+   .academics-4-new elsewhere in this file). */
+@media (hover: none) {
+    .message-1 .image:hover img.img-fluid {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+/* ---- Large tablet / small laptop (≤1199px) ---- */
+@media (max-width: 1199px) {
+    .message-1 .heading-center h1 {
+        font-size: 34px;
+    }
+
+    .message-1 .image-content {
+        padding-left: 24px;
+    }
+}
+
+/* ---- Tablet (≤991px): stack image below the text, shrink the
+   offset backdrop box so it doesn't overflow the column ---- */
+@media (max-width: 991px) {
+    .message-1 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .message-1 .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .message-1 .image-content {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .message-1 .image {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .message-1 .image::before {
+        height: 106%;
+        width: 106%;
+        right: -12px;
+        bottom: -12px;
+    }
+
+    .message-1 .content .role h2 {
+        width: auto;
+    }
+}
+
+/* ---- Mobile (≤767px) ---- */
+@media (max-width: 767px) {
+    .message-1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .message-1 .heading-center {
+        text-align: center;
+    }
+
+    .message-1 .heading-center h1 {
+        font-size: 26px;
+    }
+
+    .message-1 .content blockquote {
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .message-1 .content p {
+        text-align: left;
+        line-height: 1.7;
+    }
+
+    .message-1 .content .role h2 {
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+
+    .message-1 .image {
+        max-width: 320px;
+    }
+
+    .message-1 .image::before,
+    .message-1 .image img.img-fluid {
+        border-radius: 14px;
+    }
+}
+
+/* ---- Small mobile (≤480px) ---- */
+@media (max-width: 480px) {
+    .message-1 .heading-center h1 {
+        font-size: 22px;
+    }
+
+    .message-1 .content blockquote {
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    .message-1 .content p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .message-1 .content .role h2 {
+        font-size: 19px;
+    }
+
+    .message-1 .image {
+        max-width: 260px;
+    }
+}
+
+/* ---- Very small phones (≤360px) ---- */
+@media (max-width: 360px) {
+    .message-1 .image-content {
+        padding: 0 4px;
+    }
+
+    .message-1 .content blockquote {
+        font-size: 13px;
+        padding: 12px;
+    }
+}
+
+/* ---- Zoom-level safety net -------------------------------
+   Browser zoom shrinks the effective CSS viewport, so a desktop
+   window zoomed to 125–200% lands in these same max-width bands
+   (900 / 700 / 400, matching the pattern already used elsewhere
+   in this file). Repeating a light touch here keeps the offset
+   backdrop box from overflowing at in-between widths that don't
+   land exactly on 991 / 767 / 480. Zoom below 100% just leaves
+   more room inside the untouched desktop rules above. ---- */
+@media (max-width: 900px) {
+    .message-1 .image::before {
+        height: 106%;
+        width: 106%;
+    }
+}
+
+@media (max-width: 400px) {
+    .message-1 .image {
+        max-width: 100%;
+        margin-top: 14px;
+    }
+
+    .message-1 .image::before {
+        right: -8px;
+        bottom: -8px;
     }
 }
